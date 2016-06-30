@@ -1,0 +1,28 @@
+/* Testing */
+
+div {
+  color: #565656;
+}
+
+body {
+	font-family: 'PT Sans Narrow', normal;
+	padding-bottom: 20px;
+}
+
+header {
+	
+}
+
+#name  h1, #name h2 {
+	text-align: center;
+}
+
+#name h1 {
+	font-size: 40px;
+	/*color: */
+}
+
+#name h2 {
+	font-size: 20px;
+	/*color: */
+}
