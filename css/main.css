@@ -5,19 +5,32 @@ div {
 }
 
 body {
-	font-family: 'Nunito', sans-serif;
+	font-family: 'Asap', sans-serif;
 	padding-bottom: 20px;
 }
 
-header {
-	
+.container {
+	margin: auto;
+    width: 1000px;
+	background-color: #f96363;
+    display: block;
+}
+
+.logo {
+	display: block;
+}
+
+a {
+	text-decoration:none;
+	color: #565656;
 }
 
 #name  h1, #name h2 {
-	text-align: center;
+	
 }
 
 #name h1 {
+	font-family: 'Lobster', cursive;
 	font-size: 40px;
 	/*color: */
 }
@@ -25,4 +38,25 @@ header {
 #name h2 {
 	font-size: 20px;
 	/*color: */
+}
+
+.links li{
+	display: inline;
+	padding: 5px;
+}
+
+.links a:hover {
+	color: #003287;
+}
+
+@media only screen and (max-width: 1024px) {
+    .container {width: 600px;}
+}
+
+@media only screen and (max-width: 640px) {
+    .container {width: 450px;}
+}
+
+@media only screen and (max-width: 480px) {
+    .container {width: 280px;}
 }
