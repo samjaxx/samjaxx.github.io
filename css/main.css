@@ -72,7 +72,7 @@ a {
 }
 
 @media only screen and (max-width: 480px) {
-    .container {width: 300px;}
-	.logo {width: 300px;}
-	#name h1{font-size: 40px;}
+    .container {width: 320px;}
+	.logo  {width: 320px;}
+	#name h1{font-size: 47px;}
 }
