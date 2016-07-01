@@ -67,10 +67,12 @@ a {
 
 @media only screen and (max-width: 640px) {
     .container {width: 326px;}
-	#name h1{font: 10px;}
+	.logo  {width: 326px;}
+	#name h1{font-size: 45px;}
 }
 
 @media only screen and (max-width: 480px) {
     .container {width: 300px;}
-	#name h1{font: 10px;}
+	.logo {width: 300px;}
+	#name h1{font-size: 40px;}
 }
