@@ -35,7 +35,7 @@ a {
 
 #name h1 {
 	font-family: 'Lobster', cursive;
-	font-size: 50px;
+	font-size: 500px;
 	line-height: 30%;
 	/*background-color: #28ea5c;*/
 }
@@ -62,17 +62,15 @@ a {
 
 @media only screen and (max-width: 1024px) {
     .container {width: 600px;}
+	#name h1{font-size: 50px;}
 }
 
 @media only screen and (max-width: 640px) {
-    .container {width: 450px;}
-	.logo {}
-	.links ul {margin: auto;}
+    .container {width: 326px;}
+	#name h1{font: 10px;}
 }
 
 @media only screen and (max-width: 480px) {
     .container {width: 300px;}
-	.logo {}
-	.links ul {margin: auto;}
-	#name h1 {font: 40px;}
+	#name h1{font: 10px;}
 }
