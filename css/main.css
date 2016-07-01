@@ -35,7 +35,7 @@ a {
 
 #name h1 {
 	font-family: 'Lobster', cursive;
-	font-size: 500px;
+	font-size: 50px;
 	line-height: 30%;
 	/*background-color: #28ea5c;*/
 }
@@ -62,7 +62,7 @@ a {
 
 @media only screen and (max-width: 1024px) {
     .container {width: 600px;}
-	#name h1{font-size: 50px;}
+	#name h1{font-size: 45px;}
 }
 
 @media only screen and (max-width: 640px) {
