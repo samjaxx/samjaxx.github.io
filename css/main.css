@@ -1,0 +1,71 @@
+/* Testing */
+
+div {
+  color: #565656;
+}
+
+body {
+	font-family: 'Asap', sans-serif;
+	padding-top: 5px;
+	padding-bottom: 20px;
+}
+
+.container {
+	margin: auto;
+    width: 1000px;
+	/*background-color: #f96363;*/
+    display: block;
+}
+
+.logo {
+	display: block;
+	/*background-color: #638bf9;*/
+}
+
+a {
+	text-decoration:none;
+	color: #565656;
+}
+
+#name  h1, #name h2 {
+	
+}
+
+#name h1 {
+	font-family: 'Lobster', cursive;
+	font-size: 40px;
+	line-height: 30%;
+	/*background-color: #28ea5c;*/
+}
+
+#name h2 {
+	font-size: 20px;
+	/*color: */
+}
+
+.links ul {
+	margin: 0px -10px;
+	padding: 0px;
+}
+
+.links li {
+	display: inline;
+	padding: 10px;
+	/*background-color: #eab128;*/
+}
+
+.links a:hover {
+	color: #003287;
+}
+
+@media only screen and (max-width: 1024px) {
+    .container {width: 600px;}
+}
+
+@media only screen and (max-width: 640px) {
+    .container {width: 450px;}
+}
+
+@media only screen and (max-width: 480px) {
+    .container {width: 280px;}
+}
