@@ -13,13 +13,16 @@ body {
 .container {
 	margin: auto;
     width: 1000px;
-	/*background-color: #f96363;*/
+	background-color: #f96363;
     display: block;
 }
 
 .logo {
+	width: 330px;
+	text-align: center;
+	background-color: #638bf9;
+	float: left;
 	display: block;
-	/*background-color: #638bf9;*/
 }
 
 a {
@@ -33,7 +36,7 @@ a {
 
 #name h1 {
 	font-family: 'Lobster', cursive;
-	font-size: 40px;
+	font-size: 50px;
 	line-height: 30%;
 	/*background-color: #28ea5c;*/
 }
@@ -64,8 +67,12 @@ a {
 
 @media only screen and (max-width: 640px) {
     .container {width: 450px;}
+	.logo {text-align: center;}
+	.links ul {margin: auto;}
 }
 
 @media only screen and (max-width: 480px) {
     .container {width: 280px;}
+	.logo {text-align: center;}
+	.links ul {margin: auto;}
 }
