@@ -103,16 +103,16 @@ a {
 	
     .container {width: 620px;}
 	
-	.logo  {width: 300px; text-align: center;}
+	.logo  {width: 310px; text-align: center;}
 	
 	.tabs  {
-		width: 320px;
+		width: 310px;
 		padding-top: 35px;
-		margin-left: 300px;
+		margin-left: 310px;
 	}
 	
 	.tabs li {
-			padding: 20px;
+			padding: 17px;
 			font-size: 25px;
 	}
 	
@@ -181,7 +181,7 @@ a {
 			font-size: 25px;
 	}
 	
-	#name h1{font-size: 47px; float: none;}
+	#name h1{font-size: 46px; float: none;}
 	
 	.links li {
 		font-size: 17px;
