@@ -78,7 +78,7 @@ a {
 
 .links li {
 	display: inline;
-	padding: 10px;
+	padding: 20px;
 	font-size: 20px;
 	/*background-color: #eab128;*/
 }
@@ -112,7 +112,10 @@ a {
 	
 	#name h1{font-size: 45px;}
 	
-	.links li {font-size: 18px;}
+	.links li {
+		font-size: 18px;
+		padding: 10px;
+	}
 }
 
 @media only screen and (max-width: 640px) {
@@ -136,7 +139,10 @@ a {
 	
 	#name h1{font-size: 60px;}
 	
-	.links li {font-size: 20px;}
+	.links li {
+		font-size: 20px;
+		padding: 20px;
+	}
 	
 	#border-line {
 		padding-top: 20px;
@@ -163,7 +169,10 @@ a {
 	
 	#name h1{font-size: 47px;}
 	
-	.links li {font-size: 17px;}
+	.links li {
+		font-size: 17px;
+		padding: 17;
+	}
 	
 	#border-line {
 		padding-top: 20px;
