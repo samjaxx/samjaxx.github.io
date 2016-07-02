@@ -10,18 +10,44 @@ body {
 	padding-bottom: 20px;
 }
 
+header {
+	height: 130px;
+}
+
 .container {
 	margin: auto;
     width: 1000px;
-	background-color: #f96363;
     display: block;
+	/*background-color: #f96363;*/
 }
 
 .logo {
+	width: 450px;
 	text-align: center;
-	background-color: #638bf9;
 	float: left;
 	display: block;
+	/*background-color: #638bf9;*/
+}
+
+.tabs {
+	width: 550px;
+	text-align: center;
+	margin-left: 450px;
+	padding-top: 20px;
+	display:block;
+	/*background-color: #28ea5c;*/
+}
+
+.tabs ul {
+	padding-top: 25px;
+}
+
+.tabs li {
+	display: inline;
+	padding: 60px;
+	font-size: 25px;
+	font-weight: 700;
+	/*background-color: #eab128;*/
 }
 
 a {
@@ -53,26 +79,94 @@ a {
 .links li {
 	display: inline;
 	padding: 10px;
+	font-size: 20px;
 	/*background-color: #eab128;*/
 }
 
-.links a:hover {
+.links a:hover, .tabs a:hover{
 	color: #003287;
 }
 
+#border-line {
+	border-bottom: 7px solid #CFCFCF;
+}
+
 @media only screen and (max-width: 1024px) {
-    .container {width: 600px;}
-	#name h1{font-size: 50px;}
+	header {
+		height: 110px;
+	}
+	
+    .container {width: 620px;}
+	
+	.logo  {width: 300px;}
+	
+	.tabs  {
+		width: 320px;
+		padding-top: 5px;
+		margin-left: 300px;
+	}
+	
+	.tabs li {
+			padding: 20px;
+	}
+	
+	#name h1{font-size: 45px;}
+	
+	.links li {font-size: 18px;}
 }
 
 @media only screen and (max-width: 640px) {
+	header {
+		height: 160px;
+	}
+	
     .container {width: 450px;}
+	
 	.logo  {width: 450px;}
+	
+	.tabs  {
+		width: 450px;
+		padding-top: 100px;
+		margin-left: -10px;
+	}
+	
+	.tabs li {
+			padding: 20px;
+	}
+	
 	#name h1{font-size: 60px;}
+	
+	.links li {font-size: 20px;}
+	
+	#border-line {
+		padding-top: 20px;
+		border-bottom: 7px solid #CFCFCF;
+	}
 }
 
 @media only screen and (max-width: 480px) {
+	header {
+		height: 160px;
+	}
     .container {width: 320px;}
+	
 	.logo  {width: 320px;}
+	
+	.tabs  {
+		width: 320px;
+		margin-left: 0px;
+	}
+	
+	.tabs li {
+			padding: 20px;
+	}
+	
 	#name h1{font-size: 47px;}
+	
+	.links li {font-size: 17px;}
+	
+	#border-line {
+		padding-top: 20px;
+		border-bottom: 7px solid #CFCFCF;
+	}
 }
