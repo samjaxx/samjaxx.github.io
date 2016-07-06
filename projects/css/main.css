@@ -44,8 +44,14 @@ h2 {
 	width: 980px;
 	font-size: 20px;
 	text-align: center;
+	outline: none;
+	border: 1px solid #AAA;
 	margin: 0 auto;
 	display: block;
+}
+
+#inputBox:focus {
+	border-color: #4d90fe;
 }
 
 @media only screen and (max-width: 1024px) {
